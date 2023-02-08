@@ -1,0 +1,144 @@
+section {
+  float: right;
+  width: 90%;
+  position: relative;
+}
+
+aside {
+  float: left;
+  margin: 0 1.5%;
+  width: 8%;
+  height: 100%;
+  position: fixed;
+}
+
+.mainbackground{
+  background: lightskyblue;
+}
+
+.container {
+  position: relative; /* ??? */
+}
+
+.topimage {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+.title {
+  color: darkgreen;
+  font-size: 60px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  position: relative;
+  top: 0%;
+  left: 0%;
+  margin-bottom: 5px;
+}
+
+.menubutton {
+  font-size: large;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  position: absolute;  
+  left: 80%;
+  transform: translate(0%, -40%);
+}
+
+.menuselectable {
+  color: white;
+  background: blue;  
+  border: 2px solid black;
+  margin-left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.menuunselectable {
+  color: white;
+  background: green; 
+  border: 2px solid black;
+  margin-left: 5px;   
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.topText {
+  color:white;
+  font-size: xx-large;  
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  padding-bottom: 5px;
+  text-align: center;
+  background: black;
+}
+
+.logo{
+  margin-top: 10px;
+  width: 140px;
+  height: 140px;
+  color: white;
+  border: 1px solid black;
+  background: white;
+}
+
+.menu {
+float: left;
+color: blueviolet;
+font-size: large;
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.maintext {
+float: left;
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+margin-left: 10px;
+}
+
+.smallText{
+font-size: large;
+margin-left: 20px;	
+}
+
+.mediumText{
+font-size: x-large;
+margin-left: 10px;
+}
+
+.largeText{
+font-size: xx-large;
+}
+
+
+
+/*
+
+----TESTS----
+
+*/
+
+#test {
+background: url(https://c1.staticflickr.com/9/8500/8315697815_69cb2a99ba_b.jpg);
+background-size: cover;
+color: lightblue;
+font: bold 16px arial;
+width: 180px;
+height: 140px;
+border: 2px solid #912911;
+}
+
+
+#about1 {
+color: blue;
+font: 12px arial;
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#about2 {
+color: red;
+font: 12px arial;
+}
+
+#duckimage {
+width: 117px;
+height: 121px;
+float: left;
+}

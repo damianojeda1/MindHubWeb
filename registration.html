@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles/mdhl.css">
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <header>  
+      <div class="container"> 
+        <div class="title">Mighty Ducks Hockey League</div>
+        <img class="topimage" src="img/hockey4.jpg" alt="hockey"/>  
+      </div> 
+      <div class="blackcontainer">
+        <img class="logo" src="img/logo.png" alt="white ducks logo"/>
+        <div class="topText"> Registration </div>
+      </div> 
+    </header>    
+
+    <aside>
+      <div  class="menu">
+        <p>
+          <a href="indexV1.html"> Home </a>
+        </p>
+        <p> 
+          <a href="aboutV1.html"> About MDHL </a> 
+        </p>
+        <p> 
+          <a href="contactV1.html"> Contact </a> 
+        </p> 
+        <p> 
+          <a href="rules.html"> Rules </a> 
+        </p>
+        <p> 
+          <a href="game_info.html"> Game Info </a> 
+        </p>  
+        <p> 
+          Registration
+        </p>              
+      </div>
+    </aside>
+
+    <section>
+      <div class="maintext">
+        <p class="mediumText"> Registration Form </p>
+        <form action="show_data.html" method="GET">
+          <fieldset class="register-form">
+            <table>
+              <tbody>
+                <tr class="registertablerow">
+                  <td>
+                    <label for="firstname">Player's first name: </label>
+                  </td>
+                  <td>
+                    <input type="text" name="firstname">
+                  </td>
+                </tr>
+                <tr class="registertablerow">
+                  <td>
+                    <label for="lastname">Last name: </label>
+                  </td>
+                  <td>
+                    <input type="text" name="lastname">
+                  </td>
+                </tr>
+                <tr class="registertablerow">
+                  <td>
+                    <label for="street">Street Address: </label>
+                  </td>
+                  <td>
+                    <input type="text" name="street">
+                  </td>
+                </tr>
+                <tr class="registertablerow">
+                  <td>
+                    <label for="city">City: </label>
+                  </td>
+                  <td>
+                    <input type="text" name="city">
+                  </td>
+                </tr>
+                <tr class="registertablerow">
+                  <td>
+                    <label for="zipcode">Zip Code: </label>
+                  </td>
+                  <td>
+                    <input type="text" name="zipcode">
+                  </td>
+                </tr>
+                <tr class="registertablerow">
+                  <td>
+                    <label for="birth">Birth Date: </label>
+                  </td>
+                  <td>
+                    <input type="date" name="birth">
+                  </td>
+                </tr>
+                <tr class="registertablerow">
+                  <td>
+                    <label for="gender">Gender: </label>
+                  </td>
+                  <td>
+                    <label>
+                      <input type="radio" name="gender" value="Male"> Male
+                    </label>
+                    <label>
+                      <input type="radio" name="gender" value="Female"> Female
+                    </label>
+                    <label>
+                      <input type="radio" name="gender" value="Other"> Other
+                    </label>
+                  </td>
+                </tr>
+                <tr class="registertablerow">
+                  <td>
+                    <label for="grade">Grade: </label>
+                  </td>
+                  <td>
+                    <label>
+                      <input type="radio" name="grade" value="preschool"> Pre-School
+                    </label>
+                    <label>
+                      <input type="radio" name="grade" value="firstgrade"> 1st
+                    </label>
+                    <label>
+                      <input type="radio" name="grade" value="secondgrade"> 2nd
+                    </label>    
+                    <label>
+                      <input type="radio" name="grade" value="thirdgrade"> 3rd
+                    </label>
+                    <label>
+                      <input type="radio" name="grade" value="fourthgrade"> 4th
+                    </label> 
+                    <label>
+                      <input type="radio" name="grade" value="fifthgrade"> 5th
+                    </label> 
+                  </td> 
+                </tr>
+                <tr class="registertablerow">
+                  <td>
+                    <label for="nearschool">Which elementarty school<br>do you live near by? </label>
+                  </td>
+                  <td>
+                    <select name="nearschool" id="nearschool">
+                      <option value="ns1"> AJ Katzenmaier</option>
+                      <option value="ns2"> Marjorie P Hart</option>   
+                      <option value="ns3"> Greenbay</option>
+                      <option value="ns4"> North Elementary</option>
+                      <option value="ns5"> Howard A Yaeger</option>
+                      <option value="ns6"> South Elementary</option>
+                    </select>                                      
+                  </td>
+                </tr>
+                <tr class="registertablerow">
+                  <td>
+                    <label for="playposition">What position(s) do you play?<br>(check all that apply) </label>
+                  </td>
+                  <td>
+                    <table>
+                      <tr>
+                        <td>
+                          <label><input type="checkbox" name="playposition" value="pp1"> Forward</label>
+                        </td>
+                        <td>                          
+                          <label><input type="checkbox" name="playposition" value="pp2"> Midfield</label>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <label><input type="checkbox" name="playposition" value="pp3"> Defense</label>
+                        </td>
+                        <td>                          
+                          <label><input type="checkbox" name="playposition" value="pp4"> Goalkeeper</label>
+                        </td>
+                      </tr>
+                    </table>                    
+                  </td>
+                </tr>
+                <tr class="registertablerow">
+                  <td>
+                    <label for="uniform">Uniform Size: </label>
+                  </td>
+                  <td>
+                    <select name="uniform" id="uniform">
+                      <option value="uniform1"> Youth Small</option>
+                      <option value="uniform2"> Youth Medium</option>
+                      <option value="uniform3"> Youth Large</option>   
+                      <option value="uniform4"> Small</option>
+                      <option value="uniform5"> Medium</option> 
+                      <option value="uniform6"> Large</option>
+                      <option value="uniform7"> Extra-Large</option> 
+                    </select>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="mediumText"> Permission to play </p>
+            <p class="smallText"> The common interest that members of the Association share is to inspire
+              youth to practice the ideals of sportsmanship and fair play. Any player, coach,
+              team, parent, spectator, administrator or referee whose behavior detracts from
+              this purpose is subject to disciplinary action regardless of technical hockey
+              background, expertise, accomplishments or standing. </p>
+            <p class="smallText">
+              Parent Name: <input type="text" name="parentname">
+            </p>
+            <p class="smallText">
+              Date: <input type="date" name="currentdate">
+            </p>
+          </fieldset>
+          <input class="btn" type="submit" name="submit" value="Register">
+        </form>
+      </div>        
+    </section>
+  </body>
+</html>
